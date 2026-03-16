@@ -105,7 +105,7 @@ gaming-mental-health-analysis
 
 1. Clone this repository
 
-git clone https://github.com/YOUR-USERNAME/gaming-mental-health-analysis.git
+git clone https://github.com/RenatoSaldivia/gaming-mental-health-analysis.git
 
 2. Navigate to the project folder
 
