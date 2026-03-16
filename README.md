@@ -102,7 +102,7 @@ The full exploratory analysis can be found in the notebook:
 1. Clone the repository
 
 ```
-git clone https://github.com/YOUR-USERNAME/gaming-mental-health-analysis.git
+git clone https://github.com/RenatoSaldivia/gaming-mental-health-analysis.git
 ```
 
 2. Navigate to the project folder
@@ -118,4 +118,3 @@ cd gaming-mental-health-analysis
 ## 👤 Author
 
 Renato Saldivia
-
