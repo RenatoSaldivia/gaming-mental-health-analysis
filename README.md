@@ -6,7 +6,7 @@ This project analyzes a dataset containing information about players’ gaming h
 
 ---
 
-# 📊 Project Objective
+## 📊 Project Objective
 
 Video games are one of the most popular forms of entertainment worldwide. However, their potential impact on mental health has become an increasingly discussed topic.
 
@@ -21,7 +21,7 @@ Using exploratory data analysis (EDA), we aim to identify patterns, correlations
 
 ---
 
-# 📁 Dataset
+## 📁 Dataset
 
 Dataset used in this project:
 
@@ -41,92 +41,81 @@ The dataset includes information about:
 
 ---
 
-# 🛠 Tools and Technologies
+## 🛠 Tools and Technologies
 
-This project was developed using the following tools:
+This project was developed using:
 
 * Python
 * Pandas
 * Matplotlib
 * Seaborn
-* Google Colab / Jupyter Notebook
-* Git & GitHub
+* Jupyter Notebook / Google Colab
+* Git
+* GitHub
 
 ---
 
-# 📈 Exploratory Data Analysis
+## 📈 Exploratory Data Analysis
 
-The analysis includes several exploratory steps:
+### Age Distribution
 
-### Data Exploration
+<img width="695" height="470" alt="image" src="https://github.com/user-attachments/assets/56a87f8f-b82a-408f-8d49-a60d8e7af168" />
 
-* Dataset structure inspection
-* Data types and summary statistics
-* Missing value analysis
-
-### Data Visualization
-
-Visualizations were created to better understand the dataset:
-
-* Age distribution of players
-* Daily gaming hours distribution
-* Correlation heatmap between lifestyle and mental health variables
-* Scatter plot analysis of gaming hours vs addiction level
+The dataset contains players between approximately **13 and 59 years old**, with a relatively uniform distribution across age groups.
 
 ---
 
-# 🔍 Key Insights
+### Gaming Hours Distribution
 
-The exploratory analysis revealed several interesting patterns:
+![Gaming Hours](images/gaming_hours_distribution.png)
 
-* Most players spend **between 1 and 5 hours gaming per day**, suggesting moderate gaming habits.
-* **Daily gaming hours show a strong positive correlation with addiction level**.
-* Lifestyle variables such as **sleep hours and exercise hours show weak correlations with gaming behavior**.
-* Mental health indicators such as **stress, anxiety, and depression show minimal linear correlation with gaming hours** in this dataset.
-
-These results suggest that while heavy gaming is associated with higher addiction scores, the relationship between gaming time and broader mental health indicators may be more complex.
+Most players spend **between 1 and 5 hours per day gaming**, while a small number of players show extreme gaming habits.
 
 ---
 
-# 📂 Project Structure
+### Correlation Heatmap
+
+<img width="704" height="470" alt="image" src="https://github.com/user-attachments/assets/faf3e59e-2483-4c0c-a595-acc84783f4fe" />
+
+Daily gaming hours show a **strong correlation with addiction level**, while mental health indicators show weak correlations with gaming behavior.
+
+---
+
+### Gaming Hours vs Addiction Level
+
+<img width="750" height="652" alt="image" src="https://github.com/user-attachments/assets/8c67f8ae-ce81-473b-a40e-ec59fe6381f9" />
+
+There is a clear **positive relationship between gaming hours and addiction level**.
+
+---
+
+## 📓 Project Notebook
+
+The full exploratory analysis can be found in the notebook:
+
+`notebook/gaming_mental_health_analysis.ipynb`
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone the repository
 
 ```
-gaming-mental-health-analysis
-│
-├─ notebook
-│   └─ gaming_mental_health_analysis.ipynb
-│
-└─ README.md
+git clone https://github.com/YOUR-USERNAME/gaming-mental-health-analysis.git
 ```
-
----
-
-# 🚀 How to Run the Project
-
-1. Clone this repository
-
-git clone https://github.com/RenatoSaldivia/gaming-mental-health-analysis.git
 
 2. Navigate to the project folder
 
+```
 cd gaming-mental-health-analysis
+```
 
-3. Open the notebook using Jupyter or upload it to Google Colab.
-
----
-
-# 📌 Future Improvements
-
-Possible extensions for this project include:
-
-* Applying machine learning models to predict gaming addiction levels
-* Performing clustering analysis to identify gamer profiles
-* Investigating non-linear relationships between gaming behavior and mental health variables
-* Building an interactive dashboard for data visualization
+3. Open the notebook with Jupyter Notebook or upload it to Google Colab.
 
 ---
 
-# 👤 Author
+## 👤 Author
 
 Renato Saldivia
 
